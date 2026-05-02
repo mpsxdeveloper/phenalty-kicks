@@ -1,0 +1,138 @@
+{ "compressionlevel":-1,
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 84, 84, 84, 84, 84, 84, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 84, 84, 0, 0, 0, 0, 0],
+         "height":8,
+         "id":5,
+         "name":"FloorLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":12,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[87, 84, 84, 84, 84, 84, 84, 84, 84, 84, 84, 88,
+            96, 82, 82, 82, 82, 82, 82, 82, 82, 82, 82, 99,
+            96, 82, 83, 0, 0, 0, 0, 0, 0, 86, 82, 99,
+            96, 82, 96, 82, 82, 82, 82, 82, 82, 99, 82, 99,
+            96, 82, 96, 82, 82, 82, 82, 82, 82, 99, 82, 99,
+            96, 82, 96, 82, 82, 82, 82, 82, 82, 99, 82, 99,
+            96, 82, 122, 123, 123, 123, 123, 123, 123, 125, 82, 99,
+            96, 82, 82, 82, 82, 0, 0, 82, 82, 82, 82, 99],
+         "height":8,
+         "id":2,
+         "name":"GrassLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":12,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 17, 17, 17, 17, 17, 17, 0, 0, 0,
+            0, 0, 0, 17, 17, 17, 17, 17, 17, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
+         "id":7,
+         "name":"WallLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":12,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 32, 33, 33, 33, 33, 36, 0, 0, 0,
+            0, 0, 0, 41, 42, 42, 42, 42, 45, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
+         "id":4,
+         "name":"GoalLayer",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":12,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":8,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.12.1",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "columns":9,
+         "firstgid":1,
+         "image":"elements.png",
+         "imageheight":576,
+         "imagewidth":576,
+         "margin":0,
+         "name":"gol_tiles",
+         "spacing":0,
+         "tilecount":81,
+         "tileheight":64,
+         "tiles":[
+                {
+                 "id":16,
+                 "properties":[
+                        {
+                         "name":"scoredGoal",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":64
+        }, 
+        {
+         "columns":13,
+         "firstgid":82,
+         "image":"groundGrass.png",
+         "imageheight":1024,
+         "imagewidth":832,
+         "margin":0,
+         "name":"grass_tiles",
+         "spacing":0,
+         "tilecount":208,
+         "tileheight":64,
+         "tiles":[
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":64
+        }],
+ "tilewidth":64,
+ "type":"map",
+ "version":"1.10",
+ "width":12
+}
