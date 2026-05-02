@@ -1,0 +1,3 @@
+# phenalty-kicks
+
+A multiplayer web game developed with Phaser, focused on penalty kicks between two players. Built with Node.js, Express, and Socket.io for real-time communication, it uses 2D assets from Kenney’s kenney_toon-characters and kenney_sports-pack. The images are loaded in the preload() function using their original names, making it easier to identify and select the correct assets. This project is unfinished, contains bugs, and is intended for reference and learning purposes only.
